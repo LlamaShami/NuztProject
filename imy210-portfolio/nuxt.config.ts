@@ -6,7 +6,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      // only needed if you choose WeatherAPI.com
       weatherApiKey: process.env.NUXT_PUBLIC_WEATHERAPI_KEY,
     }
   },
